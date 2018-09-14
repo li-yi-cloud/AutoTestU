@@ -1,0 +1,125 @@
+devices:
+#  - 
+#    platformName: 'Android'
+#    deviceName: 'sumsung-s8'
+#    udid: '988b9d363142423146'
+#    platformVersion: '8.0'
+#    appPackage: 'com.videochat.livu'
+#    appActivity: 'com.rcplatform.livechat.ui.MainActivity'
+#    noReset: true 
+#    automationName: 'uiautomator2'
+#  - 
+#    platformName: 'Android'
+#    deviceName: 'ef709a12'
+#    udid: 'ef709a12'
+#    platformVersion: '7.0'
+#    appPackage: 'com.videochat.livu'
+#    appActivity: 'com.rcplatform.livechat.ui.MainActivity'
+#    noReset: true 
+#    automationName: 'uiautomator2'
+  - 
+    platformName: 'Android'
+    deviceName: 'sumsung note'
+    udid: 'af7996a2'
+    platformVersion: '8.0'
+    appPackage: 'com.videochat.livu'
+    appActivity: 'com.rcplatform.livechat.ui.MainActivity'
+    noReset: true 
+    useJSONSource: true
+    automationName: 'uiautomator2'
+#  -
+#    platformName: 'Android'
+#    deviceName: '37bb2b0b'
+#    udid: '37bb2b0b'
+#    platformVersion: '5.1'
+#    appPackage: 'com.videochat.livu'
+#    appActivity: 'com.rcplatform.livechat.ui.MainActivity'
+#    noReset: true
+#    automationName: 'uiautomator2'
+#  -
+#    platformName: 'Android'
+#    deviceName: 'FE9LTKMN99999999'
+#    udid: 'FE9LTKMN99999999'
+#    platformVersion: '5.0'
+#    appPackage: 'com.videochat.livu'
+#    appActivity: 'com.rcplatform.livechat.ui.MainActivity'
+#    noReset: true
+#    automationName: 'uiautomator2'
+#  - 
+#    platformName: 'Android'
+#    deviceName: 'TSPZ8SSWIRHEQK85'
+#    udid: 'TSPZ8SSWIRHEQK85'
+#    platformVersion: '4.4'
+#    appPackage: 'com.videochat.livu'
+#    appActivity: 'com.rcplatform.livechat.ui.MainActivity'
+#    noReset: true 
+#    automationName: 'uiautomator2'
+
+case_list: 
+#  -
+#    SignWithEmail: 
+#      - 'reset_app'
+#      - 'sign_with_email'
+#      - 'new_user_guide_check'
+#      - 'delete_account'
+#
+#  -
+#    LoginWithEmail: 
+#      - 'reset_app'
+#      - 'login_with_email'
+#      - 'new_user_guide_check'
+#      - 'new_user_popup_test'
+#      - 'logout_account'
+#  -
+#    MatchFriend: 
+#      - 'reset_app'
+#      - 'login_with_email'
+#      - 'new_user_guide_check'
+#      - 'match_friend'
+#  - 
+#    MatchHistorySwitch: 
+#      - 'restart_app'
+#      - 'new_user_popup_handle'
+#      - 'match_history_switch'
+#  -
+#    MatchHistoryReport:
+#      - 'restart_app'
+#      - 'new_user_popup_handle'
+#      - 'match_history_report'
+#  -
+#    DeleteMatchHistory: 
+#      - 'restart_app'
+#      - 'new_user_popup_handle'
+#      - 'delete_match_history'
+#  -
+#    MatchHistorySendMessage: 
+#      - 'restart_app'
+#      - 'new_user_popup_handle'
+#      - 'match_history_sendmessage'
+#  - 
+#    MatchFromHistory: 
+#      - 'reset_app'
+#      - 'login_with_email'
+#      - 'new_user_guide_check'
+#      - 'match_from_match_history'
+#  - 
+#    NewUserPopupTest: 
+#      - 'reset_app'
+#      - 'login_with_email'
+#      - 'new_user_popup_test'
+#  - 
+#    MatchPerformance: 
+#      - 'reset_app'
+#      - 'login_with_email'
+#      - 'allow_permission'
+#      - 'new_user_guide_check'
+#      - 'match_performance'
+#      - 'logout_account'
+  -
+    PornographicBannedTest:
+      - 'reset_app'
+      - 'login_with_email'
+      - 'allow_permission'
+      - 'new_user_guide_check'
+#      - 'new_user_popup_handle'
+      - 'pornographic_closure'
